@@ -254,7 +254,7 @@ type ResponseItemDevicesGetNetworkDevices struct {
 	NetworkID      string                                              `json:"networkId,omitempty"`      //
 	Notes          string                                              `json:"notes,omitempty"`          //
 	Serial         string                                              `json:"serial,omitempty"`         //
-	Tags           string                                              `json:"tags,omitempty"`           //
+	Tags           []string                                            `json:"tags,omitempty"`           //
 }
 type ResponseItemDevicesGetNetworkDevicesBeaconIDParams struct {
 	Major *int   `json:"major,omitempty"` //
